@@ -1,0 +1,1359 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    background-color: rgb(15, 130, 238) !important;
+    border: 1px solid rgb(15, 130, 238);
+    border-radius: 20px 0 20px 0 !important;
+    padding: 5px !important;
+    color: white !important;
+    font-family: Arial Black !important;
+}
+.img{
+    position: relative;
+}
+.intro{
+    position: absolute;
+    top: 250px;
+    right: 200px;
+}
+.me{
+    position: absolute;
+    top: 170px;
+    right: 700px;
+}
+.hi{
+    color: white;
+    font-size: 30px;
+    font-family: Bradley Hand ITC;   
+}
+.name{
+    color: red;
+    font-size: 40px;
+    font-family: Arial Black;
+}
+.web{
+    color: rgb(235, 139, 15);
+    font-size: 20px;
+}
+#About{
+    height: 700px;
+    width: 1350px;
+    background-color: aqua;
+    background-image: url("./download.jpg");
+    position: relative;
+    top: 0px;
+}
+.about{
+    color: red;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-family:  Bradley Hand ITC;
+}
+.para{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    color: rgb(233, 222, 222);
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+}
+.line{
+    position: absolute;
+    top: 70px;
+    left: 450px;
+    color: rgb(15, 130, 238);
+}
+.skills{
+    color: red;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    font-family:  Bradley Hand ITC;
+}
+.line2{
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    color: rgb(15, 130, 238);
+}
+.r1{
+    width: 600px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    top: 380px;
+    left: 280px;
+    color: white;
+    font-family: Arial Black;
+}
+.r2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(150, 146, 146);
+    position: absolute;
+    top: 380px;
+    left: 850px;
+}
+.r3{
+    width: 600px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    top: 450px;
+    left: 280px;
+    color: white;
+    font-family: Arial Black;
+}
+.r4{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(150, 146, 146);
+    position: absolute;
+    top: 450px;
+    left: 800px;
+}
+.r5{
+    width: 800px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    top: 520px;
+    left: 280px;
+    color: white;
+    font-family: Arial Black;
+}
+.r6{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(150, 146, 146);
+    position: absolute;
+    top: 520px;
+    left: 1000px;
+}
+.resume{
+    padding: 20x;
+    color: white;
+    font-family: Arial Black;
+    background-color: rgb(15, 130, 238);
+    border-radius: 20px 0 20px 0px;
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(15, 130, 238);
+    position: absolute;
+    top: 600px;
+    left: 600px;
+}
+#Work{
+    height: 700px;
+    width: 1350px;
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img2{
+    position: absolute;
+}
+.work{
+    color: red;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-family:  Bradley Hand ITC;
+}
+.line3{
+    position: absolute;
+    top: 70px;
+    left: 450px;
+    color: rgb(15, 130, 238);
+}
+#Contact{
+    height: 700px;
+    width: 1350px; 
+    position: relative;
+    top: 0px;
+}
+.img3{
+    position: absolute;
+}
+.contact{
+    color: red;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-family:  Bradley Hand ITC;
+}
+.line4{
+    position: absolute;
+    top: 70px;
+    left: 450px;
+    color: rgb(15, 130, 238);
+}
+.location{
+    position: absolute;
+    top: 135px;
+    left: 100px;
+}
+.city{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    color: red;
+    font-size: 30px;
+    font-family:  Bradley Hand ITC;
+}
+.phone{
+    position: absolute;
+    top: 190px;
+    left: 100px;
+}
+.num{
+    position: absolute;
+    top: 190px;
+    left: 150px;
+    color: red;
+    font-size: 30px;
+    font-family:  Bradley Hand ITC;
+}
+.user{
+    position: absolute;
+    top: 245px;
+    left: 100px;
+}
+.mail{
+    position: absolute;
+    top: 245px;
+    left: 150px;
+    color: red;
+    font-size: 30px;
+    font-family:  Bradley Hand ITC;
+}
+.touch{
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    color: white;
+    font-size: 30px;
+    font-family:  Bradley Hand ITC;
+}
+.text{
+    position: absolute;
+    top: 370px;
+    left: 100px;
+    padding: 7px;
+    width: 1000px;
+    border: 2px groove red;
+    border-radius: 10px;
+    background-color: white;
+    color: red;
+    font-family:  Bradley Hand ITC;
+    font-size: 20px;
+}
+.email{
+    position: absolute;
+    top: 430px;
+    left: 100px;
+    padding: 7px;
+    width: 1000px;
+    border: 2px groove red;
+    border-radius: 10px;
+    background-color: white;
+    color: red;
+    font-family:  Bradley Hand ITC;
+    font-size: 20px;
+}
+.message{
+    position: absolute;
+    top: 490px;
+    left: 100px;
+    padding: 20px;
+    width: 1000px;
+    border: 2px groove red;
+    border-radius: 10px;
+    background-color: white;
+    color: red;
+    font-family:  Bradley Hand ITC;
+    font-size: 20px;
+}
+.send{
+    position: absolute;
+    top: 590px;
+    left: 100px;
+    padding: 7px;
+    border: 1px groove red;
+    border-radius: 20px 0 20px 0;
+    background-color: red;
+    color: white;
+    font-family:  Bradley Hand ITC;
+    font-size: 20px;
+}
+.footer{
+    position: relative;
+
+}
+.around{
+    position: absolute;
+    left: 550px;
+    color: white;
+    font-size: 30px;
+    top:2780px;
+    font-family: Arial Black;
+}
+.facebook{
+    position: absolute;
+    top: 2850px;
+    left: 560px;
+}
+.insta{
+    position: absolute;
+    top: 2850px;
+    left: 610px;
+}
+.linkedin{
+    position: absolute;
+    top: 2850px;
+    left: 660px;
+}
+.cloud{
+    position: absolute;
+    top: 2850px;
+    left: 710px;
+}
+.twitter{
+    position: absolute;
+    top: 2850px;
+    left: 770px;
+}
+.copyright{
+    position: absolute;
+    top: 2900px;
+    left: 250px;
+    font-size: 30px;
+    color: white;
+    font-family: Arial Black;
+}
+@media screen and (min-width: 768px){
+    .img{
+        position: relative;
+        width: 768px;
+    }
+    .intro{
+        position: absolute;
+        top: 250px;
+        right: 50px;
+    }
+    .me{
+        position: absolute;
+        top: 170px;
+        right: 400px;
+    }
+    .hi{
+        color: white;
+        font-size: 30px;
+        font-family: Bradley Hand ITC;   
+    }
+    .name{
+        color: red;
+        font-size: 30px;
+        font-family: Arial Black;
+    }
+    #About{
+        height: 700px;
+        width: 768px;
+        background-color: aqua;
+        background-image: url("./download.jpg");
+        position: relative;
+        top: 0px;
+    }
+    .about{
+        color: red;
+        position: absolute;
+        top: 20px;
+        left: 300px;
+        font-family:  Bradley Hand ITC;
+    }
+    .para{
+        position: absolute;
+        top: 100px;
+        left: 70px;
+        color: rgb(233, 222, 222);
+        font-size: 20px;
+        font-family: Bradley Hand ITC;
+    }
+    .line{
+        position: absolute;
+        top: 70px;
+        left: 150px;
+        color: rgb(15, 130, 238);
+    }
+    .skills{
+        color: red;
+        position: absolute;
+        top: 300px;
+        left: 300px;
+        font-family:  Bradley Hand ITC;
+    }
+    .line2{
+        position: absolute;
+        top: 350px;
+        left: 150px;
+        color: rgb(15, 130, 238);
+    }
+    .r1{
+        width: 600px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        top: 380px;
+        left: 60px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .r2{
+        width: 250px;
+        height: 40px;
+        background-color: rgb(150, 146, 146);
+        position: absolute;
+        top: 380px;
+        left: 460px;
+    }
+    .r3{
+        width: 600px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        top: 450px;
+        left: 60px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .r4{
+        width: 300px;
+        height: 40px;
+        background-color: rgb(150, 146, 146);
+        position: absolute;
+        top: 450px;
+        left: 410px;
+    }
+    .r5{
+        width: 600px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        top: 520px;
+        left: 60px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .r6{
+        width: 100px;
+        height: 40px;
+        background-color: rgb(150, 146, 146);
+        position: absolute;
+        top: 520px;
+        left: 610px;
+    }
+    .resume{
+        padding: 15sx;
+        color: white;
+        font-family: Arial Black;
+        background-color: rgb(15, 130, 238);
+        border-radius: 20px 0 20px 0px;
+        height: 50px;
+        width: 150px;
+        border: 1px solid rgb(15, 130, 238);
+        position: absolute;
+        top: 600px;
+        left: 300px;
+    }
+    #Work{
+        height: 1300px;
+        width: 768px;
+        position: relative;
+        top: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .img2{
+        position: absolute;
+        height: 1300px;
+        width: 768px;
+    }
+    .work{
+        color: red;
+        position: absolute;
+        top: 20px;
+        left: 300px;
+        font-family:  Bradley Hand ITC;
+    }
+    .line3{
+        position: absolute;
+        top: 70px;
+        left: 150px;
+        color: rgb(15, 130, 238);
+    }
+    .card2{
+        position: absolute !important;
+        top: 200px !important;
+    }
+    #Contact{
+        height: 700px;
+        width: 768px; 
+        position: relative;
+        top: 0px;
+    }
+    .img3{
+        position: absolute;
+        height: 700px;
+        width: 768px;
+    }
+    .contact{
+        color: red;
+        position: absolute;
+        top: 20px;
+        left: 330px;
+        font-family:  Bradley Hand ITC;
+    }
+    .line4{
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        color: rgb(15, 130, 238);
+    }
+    .location{
+        position: absolute;
+        top: 135px;
+        left: 10px;
+    }
+    .city{
+        position: absolute;
+        top: 130px;
+        left: 50px;
+        color: red;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .phone{
+        position: absolute;
+        top: 190px;
+        left: 10px;
+    }
+    .num{
+        position: absolute;
+        top: 190px;
+        left: 50px;
+        color: red;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .user{
+        position: absolute;
+        top: 245px;
+        left: 10px;
+    }
+    .mail{
+        position: absolute;
+        top: 245px;
+        left: 50px;
+        color: red;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .touch{
+        position: absolute;
+        top: 320px;
+        left: 10px;
+        color: white;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .text{
+        position: absolute;
+        top: 370px;
+        left: 10px;
+        padding: 7px;
+        width: 700px;
+        border: 2px groove red;
+        border-radius: 10px;
+        background-color: white;
+        color: red;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .email{
+        position: absolute;
+        top: 430px;
+        left: 10px;
+        padding: 7px;
+        width: 700px;
+        border: 2px groove red;
+        border-radius: 10px;
+        background-color: white;
+        color: red;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .message{
+        position: absolute;
+        top: 490px;
+        left: 10px;
+        padding: 20px;
+        width: 700px;
+        border: 2px groove red;
+        border-radius: 10px;
+        background-color: white;
+        color: red;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .send{
+        position: absolute;
+        top: 590px;
+        left: 10px;
+        padding: 7px;
+        border: 1px groove red;
+        border-radius: 20px 0 20px 0;
+        background-color: red;
+        color: white;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .footer{
+        position: relative;
+        width: 768px;
+    
+    }
+    .around{
+        position: absolute;
+        left: 270px;
+        color: white;
+        font-size: 30px;
+        top:3380px;
+        font-family: Arial Black;
+    }
+    .facebook{
+        position: absolute;
+        top: 3430px;
+        left: 280px;
+    }
+    .insta{
+        position: absolute;
+        top: 3430px;
+        left: 330px;
+    }
+    .linkedin{
+        position: absolute;
+        top: 3430px;
+        left: 380px;
+    }
+    .cloud{
+        position: absolute;
+        top: 3430px;
+        left: 430px;
+    }
+    .twitter{
+        position: absolute;
+        top: 3430px;
+        left: 490px;
+    }
+    .copyright{
+        position: absolute;
+        top: 3500px;
+        left: 250px;
+        font-size: 30px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .bold{
+        position: absolute;
+        left: 100px;
+    }
+} 
+@media screen and (min-width: 1360px){
+    .img{
+        position: relative;
+        width: 1360px;
+    }
+    .intro{
+        position: absolute;
+        top: 250px;
+        right: 200px;
+    }
+    .me{
+        position: absolute;
+        top: 170px;
+        right: 550px;
+    }
+    .hi{
+        color: white;
+        font-size: 30px;
+        font-family: Bradley Hand ITC;   
+    }
+    .name{
+        color: red;
+        font-size: 30px;
+        font-family: Arial Black;
+    }
+    #About{
+        height: 700px;
+        width: 1360px;
+        background-color: aqua;
+        background-image: url("./download.jpg");
+        position: relative;
+        top: 0px;
+    }
+    .about{
+        color: red;
+        position: absolute;
+        top: 20px;
+        left: 600px;
+        font-family:  Bradley Hand ITC;
+    }
+    .para{
+        position: absolute;
+        top: 100px;
+        left: 350px;
+        color: rgb(233, 222, 222);
+        font-size: 20px;
+        font-family: Bradley Hand ITC;
+    }
+    .line{
+        position: absolute;
+        top: 70px;
+        left: 450px;
+        color: rgb(15, 130, 238);
+    }
+    .skills{
+        color: red;
+        position: absolute;
+        top: 300px;
+        left: 600px;
+        font-family:  Bradley Hand ITC;
+    }
+    .line2{
+        position: absolute;
+        top: 350px;
+        left: 450px;
+        color: rgb(15, 130, 238);
+    }
+    .r1{
+        width: 600px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        top: 380px;
+        left: 280px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .r2{
+        width: 250px;
+        height: 40px;
+        background-color: rgb(150, 146, 146);
+        position: absolute;
+        top: 380px;
+        left: 850px;
+    }
+    .r3{
+        width: 600px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        top: 450px;
+        left: 280px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .r4{
+        width: 300px;
+        height: 40px;
+        background-color: rgb(150, 146, 146);
+        position: absolute;
+        top: 450px;
+        left: 800px;
+    }
+    .r5{
+        width: 800px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        top: 520px;
+        left: 280px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .r6{
+        width: 100px;
+        height: 40px;
+        background-color: rgb(150, 146, 146);
+        position: absolute;
+        top: 520px;
+        left: 1000px;
+    }
+    .resume{
+        padding: 15sx;
+        color: white;
+        font-family: Arial Black;
+        background-color: rgb(15, 130, 238);
+        border-radius: 20px 0 20px 0px;
+        height: 50px;
+        width: 150px;
+        border: 1px solid rgb(15, 130, 238);
+        position: absolute;
+        top: 600px;
+        left: 600px;
+    }
+    #Work{
+        height: 700px;
+        width: 1360px;
+        position: relative;
+        top: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .img2{
+        position: absolute;
+        height: 700px;
+        width: 1360px;
+    }
+    .work{
+        color: red;
+        position: absolute;
+        top: 20px;
+        left: 600px;
+        font-family:  Bradley Hand ITC;
+    }
+    .line3{
+        position: absolute;
+        top: 70px;
+        left: 450px;
+        color: rgb(15, 130, 238);
+    }
+    .card2{
+        position: absolute !important;
+        top: 200px !important;
+    }
+    #Contact{
+        height: 700px;
+        width: 1360px; 
+        position: relative;
+        top: 0px;
+    }
+    .img3{
+        position: absolute;
+        height: 700px;
+        width: 1360px;
+    }
+    .contact{
+        color: red;
+        position: absolute;
+        top: 20px;
+        left: 600px;
+        font-family:  Bradley Hand ITC;
+    }
+    .line4{
+        position: absolute;
+        top: 70px;
+        left: 450px;
+        color: rgb(15, 130, 238);
+    }
+    .location{
+        position: absolute;
+        top: 135px;
+        left: 100px;
+    }
+    .city{
+        position: absolute;
+        top: 130px;
+        left: 150px;
+        color: red;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .phone{
+        position: absolute;
+        top: 190px;
+        left: 100px;
+    }
+    .num{
+        position: absolute;
+        top: 190px;
+        left: 150px;
+        color: red;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .user{
+        position: absolute;
+        top: 245px;
+        left: 100px;
+    }
+    .mail{
+        position: absolute;
+        top: 245px;
+        left: 150px;
+        color: red;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .touch{
+        position: absolute;
+        top: 320px;
+        left: 100px;
+        color: white;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .text{
+        position: absolute;
+        top: 370px;
+        left: 100px;
+        padding: 7px;
+        width: 1000px;
+        border: 2px groove red;
+        border-radius: 10px;
+        background-color: white;
+        color: red;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .email{
+        position: absolute;
+        top: 430px;
+        left: 100px;
+        padding: 7px;
+        width: 1000px;
+        border: 2px groove red;
+        border-radius: 10px;
+        background-color: white;
+        color: red;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .message{
+        position: absolute;
+        top: 490px;
+        left: 100px;
+        padding: 20px;
+        width: 1000px;
+        border: 2px groove red;
+        border-radius: 10px;
+        background-color: white;
+        color: red;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .send{
+        position: absolute;
+        top: 590px;
+        left: 100px;
+        padding: 7px;
+        border: 1px groove red;
+        border-radius: 20px 0 20px 0;
+        background-color: red;
+        color: white;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .footer{
+        position: relative;
+        width: 1360px;
+    
+    }
+    .around{
+        position: absolute;
+        left: 550px;
+        color: white;
+        font-size: 30px;
+        top: 2780px;
+        font-family: Arial Black;
+    }
+    .facebook{
+        position: absolute;
+        top: 2850px;
+        left: 560px;
+    }
+    .insta{
+        position: absolute;
+        top: 2850px;
+        left: 610px;
+    }
+    .linkedin{
+        position: absolute;
+        top: 2850px;
+        left: 660px;
+    }
+    .cloud{
+        position: absolute;
+        top: 2850px;
+        left: 710px;
+    }
+    .twitter{
+        position: absolute;
+        top: 2850px;
+        left: 770px;
+    }
+    .copyright{
+        position: absolute;
+        top: 2900px;
+        left: 535px;
+        font-size: 30px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .bold{
+        position: absolute;
+        left: 80px;
+    }
+}
+@media screen and (max-width: 480px){
+    .img{
+        position: relative;
+        width: 480px;
+        height: 900px;
+    }
+    .intro{
+        position: absolute;
+        top: 250px;
+        right: 50px;
+        top: 650px;
+    }
+    .me{
+        position: absolute;
+        top: 170px;
+        right: 80px;
+        top: 100px;
+    }
+    .hi{
+        color: white;
+        font-size: 30px;
+        font-family: Bradley Hand ITC;   
+    }
+    .name{
+        color: red;
+        font-size: 30px;
+        font-family: Arial Black;
+    }
+    #About{
+        height: 800px;
+        width: 480px;
+        background-color: aqua;
+        background-image: url("./download.jpg");
+        position: relative;
+        top: 0px;
+    }
+    .about{
+        color: red;
+        position: absolute;
+        top: 20px;
+        left: 180px;
+        font-family:  Bradley Hand ITC;
+    }
+    .para{
+        position: absolute;
+        top: 80px;
+        left: 30px;
+        color: rgb(233, 222, 222);
+        font-size: 13px;
+        font-family: Bradley Hand ITC;
+    }
+    .line{
+        position: absolute;
+        top: 50px;
+        left: 8px;
+        color: rgb(15, 130, 238);
+    }
+    .skills{
+        color: red;
+        position: absolute;
+        top: 210px;
+        left: 180px;
+        font-family:  Bradley Hand ITC;
+    }
+    .line2{
+        position: absolute;
+        top: 245px;
+        left: 8px;
+        color: rgb(15, 130, 238);
+    }
+    .r1{
+        width: 340px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        top: 280px;
+        left: 10px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .r2{
+        width: 130px;
+        height: 40px;
+        background-color: rgb(150, 146, 146);
+        position: absolute;
+        top: 280px;
+        left: 340px;
+    }
+    .r3{
+        width: 260px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        top: 350px;
+        left: 10px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .r4{
+        width: 200px;
+        height: 40px;
+        background-color: rgb(150, 146, 146);
+        position: absolute;
+        top: 350px;
+        left: 270px;
+    }
+    .r5{
+        width: 370px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        top: 420px;
+        left: 10px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .r6{
+        width: 100px;
+        height: 40px;
+        background-color: rgb(150, 146, 146);
+        position: absolute;
+        top: 420px;
+        left: 370px;
+    }
+    .resume{
+        padding: 15sx;
+        color: white;
+        font-family: Arial Black;
+        background-color: rgb(15, 130, 238);
+        border-radius: 20px 0 20px 0px;
+        height: 50px;
+        width: 150px;
+        border: 1px solid rgb(15, 130, 238);
+        position: absolute;
+        top: 500px;
+        left: 170px;
+    }
+    #Work{
+        height: 1900px;
+        width: 480px;
+        position: relative;
+        top: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .img2{
+        position: absolute;
+        height: 2200px;
+        width: 480px;
+    }
+    .work{
+        color: red;
+        position: absolute;
+        top: -100px;
+        left: 180px;
+        font-family:  Bradley Hand ITC;
+    }
+    .line3{
+        position: absolute;
+        top: -50px;
+        left: 8px;
+        color: rgb(15, 130, 238);
+    }
+    .card2{
+        position: absolute !important;
+        top: 200px !important;
+    }
+    #Contact{
+        height: 700px;
+        width: 480px; 
+        position: relative;
+        top: 0px;
+    }
+    .img3{
+        position: absolute;
+        height: 700px;
+        width: 480px;
+    }
+    .contact{
+        color: red;
+        position: absolute;
+        top: 20px;
+        left: 190px;
+        font-family:  Bradley Hand ITC;
+    }
+    .line4{
+        position: absolute;
+        top: 70px;
+        left: 8px;
+        color: rgb(15, 130, 238);
+    }
+    .location{
+        position: absolute;
+        top: 135px;
+        left: 10px;
+    }
+    .city{
+        position: absolute;
+        top: 130px;
+        left: 50px;
+        color: red;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .phone{
+        position: absolute;
+        top: 190px;
+        left: 10px;
+    }
+    .num{
+        position: absolute;
+        top: 190px;
+        left: 50px;
+        color: red;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .user{
+        position: absolute;
+        top: 245px;
+        left: 10px;
+    }
+    .mail{
+        position: absolute;
+        top: 245px;
+        left: 50px;
+        color: red;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .touch{
+        position: absolute;
+        top: 320px;
+        left: 10px;
+        color: white;
+        font-size: 30px;
+        font-family:  Bradley Hand ITC;
+    }
+    .text{
+        position: absolute;
+        top: 370px;
+        left: 10px;
+        padding: 7px;
+        width: 460px;
+        border: 2px groove red;
+        border-radius: 10px;
+        background-color: white;
+        color: red;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .email{
+        position: absolute;
+        top: 430px;
+        left: 10px;
+        padding: 7px;
+        width: 460px;
+        border: 2px groove red;
+        border-radius: 10px;
+        background-color: white;
+        color: red;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .message{
+        position: absolute;
+        top: 490px;
+        left: 10px;
+        padding: 20px;
+        width: 460px;
+        border: 2px groove red;
+        border-radius: 10px;
+        background-color: white;
+        color: red;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .send{
+        position: absolute;
+        top: 590px;
+        left: 10px;
+        padding: 7px;
+        border: 1px groove red;
+        border-radius: 20px 0 20px 0;
+        background-color: red;
+        color: white;
+        font-family:  Bradley Hand ITC;
+        font-size: 20px;
+    }
+    .footer{
+        position: relative;
+        width: 480px;
+    
+    }
+    .around{
+        position: absolute;
+        left: 105px;
+        color: white;
+        font-size: 30px;
+        top: 4410px;
+        font-family: Arial Black;
+    }
+    .facebook{
+        position: absolute;
+        top: 4460px;
+        left: 120px;
+    }
+    .insta{
+        position: absolute;
+        top: 4460px;
+        left: 170px;
+    }
+    .linkedin{
+        position: absolute;
+        top: 4460px;
+        left: 220px;
+    }
+    .cloud{
+        position: absolute;
+        top: 4460px;
+        left: 270px;
+    }
+    .twitter{
+        position: absolute;
+        top: 4460px;
+        left: 330px;
+    }
+    .copyright{
+        position: absolute;
+        top: 4510px;
+        left: 90px;
+        font-size: 30px;
+        color: white;
+        font-family: Arial Black;
+    }
+    .bold{
+        position: absolute;
+        left: 100px;
+    }
+}  
